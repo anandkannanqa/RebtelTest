@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Home Page Test - 1. IncorrectLogin 2. MenuTest 3. SliderTest]">
+  <test name="SignUp test with correct credentials(failed)">
+    <classes>
+      <class name="com.rebtel.testcases.SignUpTest">
+        <methods>
+          <include name="doSignupNewNumber"/>
+        </methods>
+      </class> <!-- com.rebtel.testcases.SignUpTest -->
+    </classes>
+  </test> <!-- SignUp test with correct credentials(failed) -->
+</suite> <!-- Failed suite [Home Page Test - 1. IncorrectLogin 2. MenuTest 3. SliderTest] -->

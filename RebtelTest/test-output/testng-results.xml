@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="SignUp Test Suite" duration-ms="277203" started-at="2015-02-01T23:08:47Z" finished-at="2015-02-01T23:13:24Z">
+    <groups>
+    </groups>
+    <test name="SignUp test with correct credentials" duration-ms="277203" started-at="2015-02-01T23:08:47Z" finished-at="2015-02-01T23:13:24Z">
+      <class name="com.rebtel.testcases.SignUpTest">
+        <test-method status="PASS" signature="goToSignUpPage(java.lang.String)[pri:0, instance:com.rebtel.testcases.SignUpTest@6ce9ef0a]" name="goToSignUpPage" duration-ms="12682" started-at="2015-02-02T00:08:47Z" data-provider="SignUpPage" finished-at="2015-02-02T00:09:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mozilla]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToSignUpPage -->
+        <test-method status="PASS" signature="goToSignUpPage(java.lang.String)[pri:0, instance:com.rebtel.testcases.SignUpTest@6ce9ef0a]" name="goToSignUpPage" duration-ms="11420" started-at="2015-02-02T00:09:00Z" data-provider="SignUpPage" finished-at="2015-02-02T00:09:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToSignUpPage -->
+        <test-method status="PASS" signature="goToSignUpPage(java.lang.String)[pri:0, instance:com.rebtel.testcases.SignUpTest@6ce9ef0a]" name="goToSignUpPage" duration-ms="1147" started-at="2015-02-02T00:09:11Z" data-provider="SignUpPage" finished-at="2015-02-02T00:09:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mozilla]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToSignUpPage -->
+        <test-method status="PASS" signature="doSignupNewNumber(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.rebtel.testcases.SignUpTest@6ce9ef0a]" name="doSignupNewNumber" duration-ms="11248" started-at="2015-02-02T00:09:12Z" data-provider="SignUpTest" depends-on-methods="com.rebtel.testcases.SignUpTest.goToSignUpPage" finished-at="2015-02-02T00:09:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test@qalabs.se]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doSignupNewNumber -->
+        <test-method status="PASS" signature="doSignupNewNumber(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.rebtel.testcases.SignUpTest@6ce9ef0a]" name="doSignupNewNumber" duration-ms="120314" started-at="2015-02-02T00:09:24Z" data-provider="SignUpTest" depends-on-methods="com.rebtel.testcases.SignUpTest.goToSignUpPage" finished-at="2015-02-02T00:11:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[anand@qalabs.se]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4321]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doSignupNewNumber -->
+        <test-method status="PASS" signature="doSignupNewNumber(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.rebtel.testcases.SignUpTest@6ce9ef0a]" name="doSignupNewNumber" duration-ms="120377" started-at="2015-02-02T00:11:24Z" data-provider="SignUpTest" depends-on-methods="com.rebtel.testcases.SignUpTest.goToSignUpPage" finished-at="2015-02-02T00:13:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rebtel@qalabs.se]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3454]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doSignupNewNumber -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:com.rebtel.testcases.SignUpTest@6ce9ef0a]" name="CloseBrowser" is-config="true" duration-ms="1385" started-at="2015-02-02T00:13:24Z" finished-at="2015-02-02T00:13:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- com.rebtel.testcases.SignUpTest -->
+    </test> <!-- SignUp test with correct credentials -->
+  </suite> <!-- SignUp Test Suite -->
+</testng-results>

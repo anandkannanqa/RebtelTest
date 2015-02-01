@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SignUp Test Suite">
+
+/RebtelTest/src/com/rebtel/testcases/SignUpTest.java
+<test name="SignUp test with correct credentials">
+    <classes>
+        <class name="com.rebtel.testcases.SignUpTest" ></class>  
+    </classes>
+</test>
+
+</suite>
